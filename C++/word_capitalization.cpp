@@ -11,11 +11,18 @@ int main() {
 	int c;
 	int i = 0;
 
+	// get the character inputted by user
 	while ( (c = getchar()) != '\n') {
+
+		// select the first character
 		if ( i < 1) {
+			// make it uppercase
 			c = (char) ::toupper(c);
 			i++;
 		}
+
+		// format the current character
+		// to char and add to output stream
 		cout << (char)c;
 	}
 
