@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+git add .
+git commit -m "Added source codes to current directory"
+git push
