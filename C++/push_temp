@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+git add .
+git commit -m "Added files to temps/ folder"
+git push
